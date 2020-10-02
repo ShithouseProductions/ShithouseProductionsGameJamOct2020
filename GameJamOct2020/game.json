@@ -100,7 +100,17 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "tempbee.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tempbee.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -131,7 +141,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.976
+        "zoomFactor": 0.352
       },
       "objectsGroups": [],
       "variables": [],
@@ -145,9 +155,25 @@
           "name": "NewObject",
           "persistentUuid": "a26f9d18-bb5d-4b82-8ea3-00042112eb5d",
           "width": 0,
-          "x": 409,
-          "y": 209,
+          "x": 255,
+          "y": 166,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 283,
+          "layer": "",
+          "locked": false,
+          "name": "henriktestnewname",
+          "persistentUuid": "8a463ae1-d3f4-4c5b-be8f-3ba47fe64204",
+          "width": 320,
+          "x": 335,
+          "y": 187,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -178,7 +204,25 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "tempbee.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             }

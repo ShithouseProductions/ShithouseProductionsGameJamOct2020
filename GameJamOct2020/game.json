@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\heeee\\OneDrive\\Dokument\\GitHub\\ShithouseProductionsGameJamOct2020\\GameJamOct2020\\game.json",
+    "projectFile": "F:\\Github Reporitory\\ShithouseProductionsGameJamOct2020\\GameJamOct2020\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -227,6 +227,15 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Kevin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [],

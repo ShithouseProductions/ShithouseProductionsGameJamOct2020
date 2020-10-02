@@ -189,13 +189,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 206,
           "layer": "",
           "locked": false,
           "name": "wall",
           "persistentUuid": "4883a9d2-1f75-46d5-b72d-114efebfc19a",
-          "width": 0,
+          "width": 32,
           "x": 282,
           "y": 319,
           "zOrder": 3,
@@ -258,7 +258,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 280,
+                            "y": 505
+                          },
+                          {
+                            "x": 1810,
+                            "y": 475
+                          },
+                          {
+                            "x": 1700,
+                            "y": 1545
+                          },
+                          {
+                            "x": 180,
+                            "y": 1575
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }

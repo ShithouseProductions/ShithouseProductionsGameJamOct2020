@@ -109,6 +109,15 @@
         "name": "tempbee.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TapIconEmpty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TapIconEmpty.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -141,7 +150,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.352
+        "zoomFactor": 0.712
       },
       "objectsGroups": [],
       "variables": [],
@@ -174,6 +183,22 @@
           "x": 335,
           "y": 187,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 206,
+          "layer": "",
+          "locked": false,
+          "name": "wall",
+          "persistentUuid": "4883a9d2-1f75-46d5-b72d-114efebfc19a",
+          "width": 32,
+          "x": 282,
+          "y": 319,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -219,7 +244,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "tempbee.png",
                       "points": [],
                       "originPoint": {
@@ -233,7 +258,84 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 280,
+                            "y": 505
+                          },
+                          {
+                            "x": 1810,
+                            "y": 475
+                          },
+                          {
+                            "x": 1700,
+                            "y": 1545
+                          },
+                          {
+                            "x": 180,
+                            "y": 1575
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "TapIconEmpty.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }

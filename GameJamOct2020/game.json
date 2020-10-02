@@ -13,7 +13,11 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
+<<<<<<< HEAD
     "projectFile": "C:\\Users\\heeee\\OneDrive\\Dokument\\GitHub\\ShithouseProductionsGameJamOct2020\\GameJamOct2020\\game.json",
+=======
+    "projectFile": "C:\\Users\\Fatheen\\Documents\\GitHub\\ShithouseProductionsGameJamOct2020\\GameJamOct2020\\game.json",
+>>>>>>> 065f2eadd3cf434d56979d71f35d1220aba2a334
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -135,6 +139,15 @@
       },
       "objectsGroups": [],
       "variables": [],
+ Oscar
+=======
+ Dani
+      "instances": [],
+      "objects": [
+        {
+          "name": "DanisObject",
+
+ master
       "instances": [
         {
           "angle": 0,
@@ -142,7 +155,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
+ Oscar
+          "name": "Jonas",
+=======
           "name": "NewObject",
+master
           "persistentUuid": "a26f9d18-bb5d-4b82-8ea3-00042112eb5d",
           "width": 0,
           "x": 409,
@@ -155,7 +172,21 @@
       ],
       "objects": [
         {
+ Oscar
+          "name": "Jonas",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "name": "Kevin",
+=======
           "name": "NewObject",
+ master
+ master
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,

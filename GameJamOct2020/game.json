@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "F:\\Github Reporitory\\ShithouseProductionsGameJamOct2020\\GameJamOct2020\\game.json",
+    "projectFile": "C:\\Users\\Fatheen\\Documents\\GitHub\\ShithouseProductionsGameJamOct2020\\GameJamOct2020\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -136,7 +136,17 @@
       "objectsGroups": [],
       "variables": [],
       "instances": [],
-      "objects": [],
+      "objects": [
+        {
+          "name": "DanisObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
+        }
+      ],
       "events": [],
       "layers": [
         {
